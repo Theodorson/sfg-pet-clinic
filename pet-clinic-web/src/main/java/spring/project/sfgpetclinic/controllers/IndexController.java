@@ -10,4 +10,10 @@ public class IndexController {
     public String Index(){
         return "index";
     }
+
+    @RequestMapping({"/oups"})
+    public String oupsHandler(){
+
+        return "notimplemented";
+    }
 }
